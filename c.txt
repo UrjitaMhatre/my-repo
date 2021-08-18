@@ -1,0 +1,40 @@
+public void setAddress(string Address)
+        {
+            this.Address = Address;
+        }
+        public void setCity(string City)
+        {
+            this.City = City;
+        }
+        public void setDepartment(string Department)
+        {
+            this.Department = Department;
+        }
+        public void setSalary(double Salary)
+        {
+            this.Salary = Salary;
+        }
+
+
+        public string getName()
+        {
+            return Name;
+        }
+        public string getAddress()
+        {
+            return Address;
+        }
+        public string getCity()
+        {
+            return City;
+        }
+        public string getDepartment()
+        {
+            return Department;
+        }
+        public double getSalary()
+        {
+            return Salary;
+        }
+
+    }
